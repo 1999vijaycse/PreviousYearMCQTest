@@ -1,0 +1,128 @@
+/*common body for index,signup,login*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+  background-color: #34495e;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.background{
+    overflow:hidden;
+    height:auto;
+    width: 100%;
+    background-color: #34495e;
+   margin-top: 3vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.75;
+   
+    border-radius:100vw;
+}
+/*only for index welcome msg*/
+.specialfont{
+    font-family: cursive;
+    font-size: 6vw;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 2px 2px 30px yellow;
+    
+}
+/*common for index,signup,login*/
+a{
+    color: wheat;
+    text-decoration:none;
+    font-family: cursive;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+h1{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 4vw;
+    text-shadow:2px 2px 25px orange;
+}
+ h2{
+    color: wheat;
+    font-weight: bold;
+
+
+}
+.box input[type="text"],.box input[type="password"],.box input[type="email"],.questions{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.box input[type = "text"]:focus,.box input[type="password"]:focus,.box input[type="email"]:focus,.questions:focus{
+    width: 300px;
+    border-color: #2ecc71;
+}
+.box button[type="submit"],.box button[type="reset"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    width: auto;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bolder;
+    color: wheat;
+}
+.box button[type="submit"]:hover,.box button[type="reset"]:hover{
+    background: #2ecc71;
+}
+/* for mobile view*/
+@media only screen and (max-width: 400px) {
+  .background{
+    margin-top: 40vw;
+   
+  }
+  a{
+      font-size: 18px;
+  }
+  p,h1{
+      font-size: 24px;
+      
+  }
+  .box input[type="text"],.box input[type="password"],.box input[type="email"],.questions{
+    
+    width: 175px;
+    
+
+}
+.box input[type = "text"]:focus,.box input[type="password"]:focus,.box input[type="email"]:focus,.questions:focus{
+    width: 225px;
+    
+}
+
+
+}
