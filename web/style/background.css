@@ -13,9 +13,9 @@ body{
 .background{
     overflow:hidden;
     height:auto;
-    width: 100%;
+    width: 100vw;
     background-color: #34495e;
-   margin-top: 3vw;
+    margin-top: 7vh;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -101,9 +101,9 @@ h1{
     background: #2ecc71;
 }
 /* for mobile view*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .background{
-    margin-top: 40vw;
+    margin-top: 25vh;
    
   }
   a{

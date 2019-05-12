@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="style/background.css" type="text/css">
         
     </head>
-    <body style="background-image: url(image/college_background.jpg);">
+    <body style="background-image: url(image/bcebhagalpur.jpg);">
         <div class="background" style="background-image: url(image/login_background.jpg);">
         <form  action="TestLogin" method="POST" >
             <div class=" container-fluid  text-center p-5" >

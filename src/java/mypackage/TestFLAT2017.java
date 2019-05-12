@@ -107,8 +107,6 @@ public class TestFLAT2017 extends HttpServlet {
                         + "<a href=\"javascript:void(0);\" class=\"icon\" onclick=\"myFunction()\">"
                         + "<i class=\"fa fa-bars\"></i>"
                         + "</a></div>" + "</div>" + "</div>"
-                        + "</head>"
-                        + "<body  style=\"background:radial-gradient(#958548, #7de7a7)\">"
                         + "<center>"
                         + "<div style=color:blue><h1>Hi,&nbsp;&nbsp;" + session.getAttribute("uname") + "<br>Your Test Result<br>of<br>FLAT 2017 Objectives<br></h1> </div>"
                         + "<div style=color:white><h2> Questions Attempted : " + attempt + "</h2> </div>"

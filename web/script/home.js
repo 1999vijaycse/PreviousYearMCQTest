@@ -9,7 +9,7 @@ function myFunction() {
 }
 //for sidnav
 function openNav() {
-document.getElementById("mySidenav").style.width = "auto";
+document.getElementById("mySidenav").style.width = "350px";
             document.getElementById("main").style.marginLeft = "auto";
             document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
         }

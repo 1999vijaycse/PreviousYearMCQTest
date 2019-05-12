@@ -27,7 +27,7 @@
         </style>
 
     </head>
-    <body style="background-image:url(image/college_background.jpg)">
+    <body style="background-image:url(image/bcebhagalpur.jpg)">
         <div class="background" style="background-image:url(image/signup_background.gif)">
             <form class="box" onsubmit="return validateForm()" autocomplete="off" action="TestSignup" method="get" >
                 <div class=" container-fluid   text-center ">
